@@ -7,18 +7,22 @@
   </head>
   <body>
     <header class="timer">
-      <p><span id="datetime"></span></p>
+      <p><span id="datetime"></span><span id="clock"></span></p>
     </header>
     <div class="container">
       <div class="terminal">
-        <div class="terminal-control"> Bem vindo
+        <div class="terminal-control"> 
+          <p class="terminal-control-text">
+            Bem vindo
+          </p>
         </div>
       </div>
     </div>
+    <script src="timer.js"></script>
     <script>
       var dt = new Date();
       const months = ["Jan", "Feb", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dec"]
-      document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +" "+ ("de "+months[dt.getMonth()]) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+      document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +" "+ ("de "+months[dt.getMonth()]) +" ";
       </script>
   </body>
 </html>

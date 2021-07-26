@@ -20,6 +20,7 @@ body {
   height: 450px;
   background-color: #1e1e1ef1;
   border: 1px solid #434143;
+  
 }
 
 .terminal-control {
@@ -31,6 +32,10 @@ body {
   height: 25px;
 }
 
+.terminal-control-text{
+  margin: 0px;
+  padding: 2.5px;
+}
 
 .timer {
   position: absolute;
