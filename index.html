@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="timer">
-      <p><span id="datetime"></span><span id="clock"></span></p>
+      <p><span id="clock"></span></p>
     </header>
     <div class="container">
       <div class="terminal">
@@ -19,10 +19,5 @@
       </div>
     </div>
     <script src="timer.js"></script>
-    <script>
-      var dt = new Date();
-      const months = ["Jan", "Feb", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dec"]
-      document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +" "+ ("de "+months[dt.getMonth()]) +" ";
-      </script>
   </body>
 </html>
