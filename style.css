@@ -60,17 +60,17 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 9.5vw;
+  padding-left: 8px;
+  padding-right: 8px;
   height: 6vh;
   background-color: #1e1e1ee0;
-  border-radius: 15px;
+  border-radius: 8px;
   text-align: center;
 }
 
 .icons {
   height: 4vh;
   padding-top: 1vh;
-  padding-left: 1px;
 }
 
 .terminal-marker{
